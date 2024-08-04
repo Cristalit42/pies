@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пироги</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+  <div class="wrapper">
+    <div class="overlay">
+      <div class="overlay__wrapper">
+        <nav class="header__top-nav header__top-nav--burger">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="pie-page.html">
+                Меню
+              </a>
+            </li>
+            <li class="header__nav-item ">
+              <a class="header__nav-link header__nav-link--active" href="stock-page.html">
+                Акции
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="delivery-page.html">
+                Доставка и оплата
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="about-us-page.html">
+                О нас
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#rewievs">
+                Отзывы
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__top-descr header__top-descr--burger">
+          <h2 class="header__descr-title">
+            Доставка осетинских пирогов <span>премиум</span>
+            качества
+          </h2>
+          <p class="header__descr-text">
+            Время доставки от 30 минут
+          </p>
+        </div>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__top">
+        <div class="container container--top">
+          <div class="header__top-inner">
+            <div class="header__logo-box">
+              <a class="header__burger-btn" href="#">
+                <div class="header__burger-btn--close">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M3.5 7.5H20.5C21.3286 7.5 22 6.82861 22 6C22 5.17139 21.3286 4.5 20.5 4.5H3.5C2.67139 4.5 2 5.17139 2 6C2 6.82861 2.67139 7.5 3.5 7.5Z"
+                      fill="#FF7A31" />
+                    <path
+                      d="M20.5 10.5H3.5C2.67139 10.5 2 11.1714 2 12C2 12.8286 2.67139 13.5 3.5 13.5H20.5C21.3286 13.5 22 12.8286 22 12C22 11.1714 21.3286 10.5 20.5 10.5Z"
+                      fill="#FF7A31" />
+                    <path
+                      d="M20.5 16.5H3.5C2.67139 16.5 2 17.1714 2 18C2 18.8286 2.67139 19.5 3.5 19.5H20.5C21.3286 19.5 22 18.8286 22 18C22 17.1714 21.3286 16.5 20.5 16.5Z"
+                      fill="#FF7A31" />
+                  </svg>
+                </div>
+                <div class="header__burger-btn--open btn--hidden">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_80_2600)">
+                      <path
+                        d="M1.17209 24.0002C0.940287 24.0002 0.713675 23.9315 0.520921 23.8027C0.328167 23.674 0.177931 23.4909 0.0892164 23.2768C0.000501992 23.0626 -0.0227054 22.8269 0.0225297 22.5996C0.0677649 22.3722 0.17941 22.1634 0.343344 21.9995L21.9996 0.34328C22.2194 0.123481 22.5175 0 22.8283 0C23.1392 0 23.4373 0.123481 23.6571 0.34328C23.8769 0.563078 24.0004 0.861188 24.0004 1.17203C24.0004 1.48287 23.8769 1.78098 23.6571 2.00078L2.00084 23.657C1.89211 23.766 1.76292 23.8524 1.6207 23.9113C1.47848 23.9702 1.32602 24.0004 1.17209 24.0002Z"
+                        fill="#FF7A31" />
+                      <path
+                        d="M22.8283 24.0002C22.6743 24.0004 22.5219 23.9702 22.3797 23.9113C22.2374 23.8524 22.1083 23.766 21.9995 23.657L0.34328 2.00078C0.123481 1.78098 0 1.48287 0 1.17203C0 0.861188 0.123481 0.563078 0.34328 0.34328C0.563078 0.123481 0.861188 0 1.17203 0C1.48287 0 1.78098 0.123481 2.00078 0.34328L23.657 21.9995C23.821 22.1634 23.9326 22.3722 23.9778 22.5996C24.0231 22.8269 23.9999 23.0626 23.9112 23.2768C23.8224 23.4909 23.6722 23.674 23.4795 23.8027C23.2867 23.9315 23.0601 24.0002 22.8283 24.0002Z"
+                        fill="#FF7A31" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_80_2600">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </a>
+              <a class="header__logo-link" href="index.html">
+                <img class="header__top-logo" src="images/logo.jpg" alt="Осетинская лавка">
+              </a>
+            </div>
+            <nav class="header__top-nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="pie-page.html">
+                    Меню
+                  </a>
+                </li>
+                <li class="header__nav-item ">
+                  <a class="header__nav-link header__nav-link--active" href="stock-page.html">
+                    Акции
+                  </a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="delivery-page.html">
+                    Доставка и оплата
+                  </a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="about-us-page.html">
+                    О нас
+                  </a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link header__nav-link--anchor" href="#rewievs">
+                    Отзывы
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__top-descr">
+              <h2 class="header__descr-title">
+                Доставка осетинских пирогов <span>премиум</span>
+                качества
+              </h2>
+              <p class="header__descr-text">
+                Время доставки от 30 минут
+              </p>
+            </div>
+            <div class="header__top-order">
+              <h2 class="header__order-title">
+                Бесплатный звонок
+              </h2>
+              <a class="header__order-phone" href="#">
+                8 800 301-31-06
+              </a>
+              <p class="header__order-text">
+                Прием заказов c 9:00 до 21:00
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__menu" id="header__menu">
+        <div class="container">
+          <div class="header__menu-inner">
+            <div class="header__menu-content">
+              <ul class="header__menu-list">
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="#">
+                    <img class="header__item-icon" src="images/menu-icons/meat-icon.svg" alt="">
+                    <p class="header__item-text">
+                      С мясом
+                    </p>
+                  </a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="#">
+                    <img class="header__item-icon" src="images/menu-icons/chicken-icon.svg" alt="">
+                    <p class="header__item-text">
+                      С курицей
+                    </p>
+                  </a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="#">
+                    <img class="header__item-icon" src="images/menu-icons/fish-icon.svg" alt="">
+                    <p class="header__item-text">
+                      С рыбой
+                    </p>
+                  </a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="#">
+                    <img class="header__item-icon" src="images/menu-icons/cheese-icon.svg" alt="">
+                    <p class="header__item-text">
+                      С сыром
+                    </p>
+                  </a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="#">
+                    <img class="header__item-icon" src="images/menu-icons/mushroom-icon.svg" alt="">
+                    <p class="header__item-text">
+                      С грибами
+                    </p>
+                  </a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="#">
+                    <img class="header__item-icon" src="images/menu-icons/leaf-icon.svg" alt="">
+                    <p class="header__item-text">
+                      Постные
+                    </p>
+                  </a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="#">
+                    <img class="header__item-icon" src="images/menu-icons/berry-icon.svg" alt="">
+                    <p class="header__item-text">
+                      Сладкие
+                    </p>
+                  </a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="#">
+                    <img class="header__item-icon" src="images/menu-icons/sauce-icon.svg" alt="">
+                    <p class="header__item-text">
+                      Соусы
+                    </p>
+                  </a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="#">
+                    <img class="header__item-icon" src="images/menu-icons/beverege-icon.svg" alt="">
+                    <p class="header__item-text">
+                      Напитки
+                    </p>
+                  </a>
+                </li>
+                <li class="header__menu-item header__menu-item--empty header__menu-item--basket">
+                  <a class="header__menu-link" href="#">
+                    <p class="header__item-text">
+                      В корзине пусто
+                    </p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__slider-wrapper">
+        <div class="container container--slider">
+          <div class="header__slider">
+            <div class="header__slide slide--birthday">
+              <img src="images/slider/1.jpg" alt="">
+            </div>
+            <div class="header__slide slide--sweet">
+              <img src="images/slider/2.jpg" alt="">
+
+            </div>
+            <div class="header__slide slide--cheese">
+              <img src="images/slider/3.jpg" alt="">
+
+            </div>
+            <div class="header__slide slide--delivery">
+              <img src="images/slider/4.jpg" alt="">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="assort">
+        <div class="container">
+          <div class="assort__inner">
+            <h2 class="assort__title title">
+              Осетинские пироги в Москве с доставкой
+            </h2>
+            <div class="assort__content">
+              <ul class="assort__content-list">
+                <li class="assort__content-item">
+                  <div class="assort__img-box">
+                    <img class="assort__img" src="images/pie.jpg" alt="">
+                    <p class="assort__img-text assort__img-text--recommendation">Рекомендуем</p>
+                  </div>
+                  <div class="assort__item-descr">
+                    <h2 class="assort__descr-title" href="pie-page.html">С говядиной «Фыдджын»</h2>
+                    <p class="assort__descr-text">Правильное тесто и отсутствие лишних ингредиентов помогают
+                      сосредоточиться на вкусе нежной говядины и исполнении оригинального рецепта, шедшего к нам
+                      столетиями</p>
+                  </div>
+                  <div class="assort__item-price">
+                    <ul class="assort__price-list">
+                      <li class="assort__price-item">
+                        <div class="radio-container">
+                          <label class="custom-radio">
+                            <input type="radio" name="weight1" value="1200" class="weight-radio" checked>
+                            <span class="radio-mark"></span>
+                            1200 грамм
+                          </label>
+                        </div>
+                      </li>
+                      <li class="assort__price-item">
+                        <p class="assort__price-text">840 ₽</p>
+                      </li>
+                    </ul>
+                    <ul class="assort__quantity-list">
+                      <li class="assort__quantity-item">
+                        <a class="quantity__btn-minus" href="#">-</a>
+                        <p class="quantity__num">1</p>
+                        <a class="quantity__btn-plus" href="#">+</a>
+                      </li>
+                      <li class="assort__quantity-item">
+                        <a class="assort__quantity-btn" href="#">Заказать</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="assort__content-item">
+                  <div class="assort__img-box">
+                    <img class="assort__img" src="images/pie.jpg" alt="">
+                    <p class="assort__img-text assort__img-text--recommendation">Рекомендуем</p>
+                  </div>
+                  <div class="assort__item-descr">
+                    <h2 class="assort__descr-title" href="pie-page.html">С говядиной «Фыдджын»</h2>
+                    <p class="assort__descr-text">Правильное тесто и отсутствие лишних ингредиентов помогают
+                      сосредоточиться на вкусе нежной говядины и исполнении оригинального рецепта, шедшего к нам
+                      столетиями</p>
+                  </div>
+                  <div class="assort__item-price">
+                    <ul class="assort__price-list">
+                      <li class="assort__price-item">
+                        <div class="radio-container">
+                          <label class="custom-radio">
+                            <input type="radio" name="weight2" value="1200" class="weight-radio" checked>
+                            <span class="radio-mark"></span>
+                            1200 грамм
+                          </label>
+                        </div>
+                      </li>
+                      <li class="assort__price-item">
+                        <p class="assort__price-text">840 ₽</p>
+                      </li>
+                    </ul>
+                    <ul class="assort__quantity-list">
+                      <li class="assort__quantity-item">
+                        <a class="quantity__btn-minus" href="#">-</a>
+                        <p class="quantity__num">1</p>
+                        <a class="quantity__btn-plus" href="#">+</a>
+                      </li>
+                      <li class="assort__quantity-item">
+                        <a class="assort__quantity-btn" href="#">Заказать</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="assort__content-item">
+                  <div class="assort__img-box">
+                    <img class="assort__img" src="images/pie.jpg" alt="">
+                    <p class="assort__img-text">Хит</p>
+                  </div>
+                  <div class="assort__item-descr">
+                    <h2 class="assort__descr-title" href="pie-page.html">С говядиной «Фыдджын»</h2>
+                    <p class="assort__descr-text">Правильное тесто и отсутствие лишних ингредиентов помогают
+                      сосредоточиться на вкусе нежной говядины и исполнении оригинального рецепта, шедшего к нам
+                      столетиями</p>
+                  </div>
+                  <div class="assort__item-price">
+                    <ul class="assort__price-list">
+                      <li class="assort__price-item">
+                        <div class="radio-container">
+                          <label class="custom-radio">
+                            <input type="radio" name="weight3" value="1200" class="weight-radio" checked>
+                            <span class="radio-mark"></span>
+                            1200 грамм
+                          </label>
+                        </div>
+                      </li>
+                      <li class="assort__price-item">
+                        <p class="assort__price-text">840 ₽</p>
+                      </li>
+                    </ul>
+                    <ul class="assort__quantity-list">
+                      <li class="assort__quantity-item">
+                        <a class="quantity__btn-minus" href="#">-</a>
+                        <p class="quantity__num">1</p>
+                        <a class="quantity__btn-plus" href="#">+</a>
+                      </li>
+                      <li class="assort__quantity-item">
+                        <a class="assort__quantity-btn" href="#">Заказать</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="assort__content-item">
+                  <div class="assort__img-box">
+                    <img class="assort__img" src="images/pie.jpg" alt="">
+                    <p class="assort__img-text assort__img-text--recommendation">Рекомендуем</p>
+                  </div>
+                  <div class="assort__item-descr">
+                    <h2 class="assort__descr-title" href="pie-page.html">С говядиной «Фыдджын»</h2>
+                    <p class="assort__descr-text">Правильное тесто и отсутствие лишних ингредиентов помогают
+                      сосредоточиться на вкусе нежной говядины и исполнении оригинального рецепта, шедшего к нам
+                      столетиями</p>
+                  </div>
+                  <div class="assort__item-price">
+                    <ul class="assort__price-list">
+                      <li class="assort__price-item">
+                        <div class="radio-container">
+                          <label class="custom-radio">
+                            <input type="radio" name="weight4" value="1200" class="weight-radio" checked>
+                            <span class="radio-mark"></span>
+                            1200 грамм
+                          </label>
+
+                        </div>
+                      </li>
+                      <li class="assort__price-item">
+                        <p class="assort__price-text">840 ₽</p>
+                      </li>
+                    </ul>
+                    <ul class="assort__quantity-list">
+                      <li class="assort__quantity-item">
+                        <a class="quantity__btn-minus" href="#">-</a>
+                        <p class="quantity__num">1</p>
+                        <a class="quantity__btn-plus" href="#">+</a>
+                      </li>
+                      <li class="assort__quantity-item">
+                        <a class="assort__quantity-btn" href="#">Заказать</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="rewievs" id="rewievs">
+        <div class="container container--rewievs">
+          <div class="rewievs__inner">
+            <h2 class="rewievs__title title">
+              Отзывы
+            </h2>
+            <div class="rewievs__content">
+              <div class="rewievs__slider">
+                <div class="rewievs__slide">
+                  <div class="rewievs__slide-wrapper">
+                    <img class="rewievs__slide-img" src="images/reviews/1.svg" alt="">
+                    <div class="rewievs__slide-descr">
+                      <h2 class="rewievs__slide-title">
+                        Арина Розова
+                      </h2>
+                      <a class="rewievs__slide-link" href="#">
+                        Посмотреть оригинал в VK
+                      </a>
+                      <p class="rewievs__slide-text">
+                        Федеральная сеть фитнес-клубов X-FIT
+                        благодарит Руслана и ребят за трепетное
+                        отношение и очень вкусные и горячие
+                        осетинские пироги
+                        )))))
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rewievs__slide">
+                  <div class="rewievs__slide-wrapper">
+                    <img class="rewievs__slide-img" src="images/reviews/1.svg" alt="">
+                    <div class="rewievs__slide-descr">
+                      <h2 class="rewievs__slide-title">
+                        Арина Розова
+                      </h2>
+                      <a class="rewievs__slide-link" href="#">
+                        Посмотреть оригинал в VK
+                      </a>
+                      <p class="rewievs__slide-text">
+                        Федеральная сеть фитнес-клубов X-FIT
+                        благодарит Руслана и ребят за трепетное
+                        отношение и очень вкусные и горячие
+                        осетинские пироги
+                        )))))
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rewievs__slide">
+                  <div class="rewievs__slide-wrapper">
+                    <img class="rewievs__slide-img" src="images/reviews/1.svg" alt="">
+                    <div class="rewievs__slide-descr">
+                      <h2 class="rewievs__slide-title">
+                        Арина Розова
+                      </h2>
+                      <a class="rewievs__slide-link" href="#">
+                        Посмотреть оригинал в VK
+                      </a>
+                      <p class="rewievs__slide-text">
+                        Федеральная сеть фитнес-клубов X-FIT
+                        благодарит Руслана и ребят за трепетное
+                        отношение и очень вкусные и горячие
+                        осетинские пироги
+                        )))))
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rewievs__slider-dots"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="container">
+          <div class="advantages__inner">
+            <div class="advantages__content">
+              <div class="advantages__content-item">
+                <img class="advantages__content-img" src="images/reviews-icons/pie-icon.svg" alt="">
+                <div class="advantages__item-descr">
+                  <h2 class="advantages__content-title">
+                    Изготовление
+                  </h2>
+                  <p class="advantages__content-text">
+                    Не боимся показать вам
+                    производство
+                  </p>
+                </div>
+              </div>
+              <div class="advantages__content-item">
+                <img class="advantages__content-img" src="images/reviews-icons/apron-icon.svg" alt="">
+                <div class="advantages__item-descr">
+                  <h2 class="advantages__content-title">
+                    Из первых рук
+                  </h2>
+                  <p class="advantages__content-text">
+                    Наши пекари – осетинки
+                  </p>
+                </div>
+              </div>
+              <div class="advantages__content-item">
+                <img class="advantages__content-img" src="images/reviews-icons/bell-icon.svg" alt="">
+                <div class="advantages__item-descr">
+                  <h2 class="advantages__content-title">
+                    С пылу, с жару
+                  </h2>
+                  <p class="advantages__content-text">
+                    Пироги приезжают всегда
+                    горячими
+                  </p>
+                </div>
+              </div>
+              <div class="advantages__content-item">
+                <img class="advantages__content-img" src="images/reviews-icons/medal-icon.svg" alt="">
+                <div class="advantages__item-descr">
+                  <h2 class="advantages__content-title">
+                    Контроль
+                  </h2>
+                  <p class="advantages__content-text">
+                    Гарантируем высокое качество
+                  </p>
+                </div>
+              </div>
+              <div class="advantages__content-item">
+                <img class="advantages__content-img" src="images/reviews-icons/certificate-icon.svg" alt="">
+                <div class="advantages__item-descr">
+                  <h2 class="advantages__content-title">
+                    Уверенность
+                  </h2>
+                  <p class="advantages__content-text">
+                    Имеем все сертификаты
+                    соответствия
+                  </p>
+                </div>
+              </div>
+              <div class="advantages__content-item">
+                <img class="advantages__content-img" src="images/reviews-icons/rolling-icon.svg" alt="">
+                <div class="advantages__item-descr">
+                  <h2 class="advantages__content-title">
+                    Настоящая кухня
+                  </h2>
+                  <p class="advantages__content-text">
+                    Выпекаем, а не подогреваем
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="info">
+        <div class="container">
+          <div class="info__inner">
+            <div class="info__content">
+              <ul class="info__content-list">
+                <li class="info__content-item">
+                  <img class="info__content-img" src="images/reviews-icons/foodBackpack-icon.svg" alt="">
+                  <p class="info__content-text">
+                    Наши курьеры доставляют осетинские пироги <br>
+                    на дом и в офис, используя специальные <br>
+                    термосумки для сохранения температуры, <br>
+                    сочности и аромата блюда.
+                  </p>
+                </li>
+                <li class="info__content-item">
+                  <img class="info__content-img" src="images/reviews-icons/time-icon.svg" alt="">
+                  <p class="info__content-text">
+                    Среднее время ожидания курьера <br>
+                    составляет всего 75 минут.
+                  </p>
+                </li>
+                <li class="info__content-item">
+                  <img class="info__content-img" src="images/reviews-icons/wallet-icon.svg" alt="">
+                  <p class="info__content-text">
+                    Расчет может быть произведен как на <br>
+                    сайте при помощи банковской карты, так <br>
+                    и наличными при доставке.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="order">
+        <div class="container container--order">
+          <div class="order__inner">
+            <h2 class="order__title">
+              Заказать осетинские пироги в Москве с доставкой
+            </h2>
+            <div class="order__descr">
+              <ul class="order__text-list">
+                <li class="order__text-item">
+                  <p class="order__text">
+                    Онлайн-ресторан «Осетинская лавка» предлагает заказать с
+                    доставкой на дом или в офис осетинские пироги — вкусные и сытные
+                    лакомства жителей Центрального Кавказа на айране и натуральном
+                    кефире, испеченные по древней рецептуре. Впервые национальные
+                    блюда были упомянуты еще за несколько сот лет до рождения Иисуса
+                    Христа в Нартском эпосе.
+                  </p>
+                </li>
+                <li class="order__text-item">
+                  <p class="order__text">
+                    Осетинские пироги восхвалялись римскими воинами за уникальный
+                    вкус и высокое содержание белка. Сегодня мы следуем кулинарным
+                    традициям предков, используя народную посуду, аутентичные
+                    ингредиенты и правила приготовления пирогов.
+                  </p>
+                </li>
+              </ul>
+              <div class="order__text-right">
+                <p class="order__text">
+                  В зависимости от вида пирога наш пекарь добавляет к начинке блюда
+                  мелконарезанный зеленый и репчатый лук, пряные кавказские
+                  специи, несколько видов перца, свежую тыкву и шампиньоны. А
+                  специально для любителей изысканных десертов в большом
+                  ассортименте представлены сладкие осетинские пироги. Аланские
+                  лепешки с творогом и клубникой, малиной, вишней, яблоком и
+                  лимоном не оставят равнодушным ни одного любителя сладостей.
+                </p>
+              </div>
+            </div>
+            <div class="order__content">
+              <h2 class="order__content-title">
+                Прямо на нашем сайте вы можете заказать
+                осетинские пироги с разнообразными начинками:
+              </h2>
+              <ul class="order__content-list">
+                <li class="order__content-item">
+                  <p class="order__content-text">
+                    с рубленной говядиной,
+                  </p>
+                </li>
+                <li class="order__content-item">
+                  <p class="order__content-text">
+                    с осетинским сыром,
+                  </p>
+                </li>
+                <li class="order__content-item">
+                  <p class="order__content-text">
+                    со свеклой,
+                  </p>
+                </li>
+                <li class="order__content-item">
+                  <p class="order__content-text">
+                    с семгой,
+                  </p>
+                </li>
+                <li class="order__content-item">
+                  <p class="order__content-text">
+                    с куриным филе,
+                  </p>
+                </li>
+                <li class="order__content-item">
+                  <p class="order__content-text">
+                    с картофелем,
+                  </p>
+                </li>
+                <li class="order__content-item">
+                  <p class="order__content-text">
+                    со шпинатом.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="delivery">
+        <div class="container container--delivery">
+          <div class="delivery__inner">
+            <div class="delivery__img-box">
+              <img class="delivery__img" src="images/pie-bg.svg" alt="">
+            </div>
+            <div class="delivery__content">
+              <h2 class="delivery__title">
+                Доставка осетинских пирогов на
+                дом или в офис
+              </h2>
+              <p class="delivery__text">
+                Чтобы угощения оказались на вашем обеденном столе, достаточно выбрать
+                размер лепешки, добавить ее в корзину и оформить заказ. В течение 10 минут
+                вам позвонит оператор ресторана, чтобы подтвердить покупку и адрес для
+                бесплатной доставки осетинских пирогов. Онлайн-ресторан «Осетинская
+                лавка» принимает заказы с 9:00 до 21:00 ежедневно, без выходных.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container container--footer">
+        <div class="footer__inner">
+          <div class="footer__info">
+            <p class="footer__info-mail">
+              feedback@osetlavka.ru
+            </p>
+            <a class="footer__info-phone" href="tel:+78003013106">
+              8 800 301-31-06
+            </a>
+            <p class="footer__info-text">
+              © Осетинская лавка, 2016 – 2024s
+            </p>
+          </div>
+          <div class="footer__content">
+            <ul class="footer__content-menu">
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">
+                  С мясом
+                </a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">
+                  С курицей
+                </a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">
+                  С сыром
+                </a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">
+                  С грибами
+                </a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">
+                  С рыбой
+                </a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">
+                  Постные
+                </a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">
+                  Сладкие
+                </a>
+              </li>
+            </ul>
+            <nav class="footer__nav">
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="pie-page.html">
+                    Меню
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="stock-page.html">
+                    Акции
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="delivery-page.html">
+                    Доставка и оплата
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="about-us-page.html">
+                    О нас
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link footer__nav-link--anchor" href="#rewievs">
+                    Отзывы
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <ul class="footer__icons-list">
+              <li class="footer__icons-item">
+                <img class="footer__icon" src="images/footer-icon/visa.svg" alt="">
+              </li>
+              <li class="footer__icons-item">
+                <img class="footer__icon" src="images/footer-icon/mc.svg" alt="">
+              </li>
+              <li class="footer__icons-item">
+                <img class="footer__icon" src="images/footer-icon/ap.svg" alt="">
+              </li>
+              <li class="footer__icons-item">
+                <img class="footer__icon" src="images/footer-icon/sp.svg" alt="">
+              </li>
+              <li class="footer__icons-item">
+                <img class="footer__icon" src="images/footer-icon/androidpay.svg" alt="">
+              </li>
+            </ul>
+          </div>
+          <div class="footer__socials">
+            <ul class="footer__socials-list">
+              <li class="footer__socials-item">
+                <a class="footer__socaials-link" href="#">
+                  <img class="footer__socaials-img" src="images/footer-icon/vk.svg" alt="">
+                </a>
+              </li>
+              <li class="footer__socials-item">
+                <a class="footer__socaials-link" href="#">
+                  <img class="footer__socaials-img" src="images/footer-icon/fb.svg" alt="">
+                </a>
+              </li>
+              <li class="footer__socials-item">
+                <a class="footer__socaials-link" href="#">
+                  <img class="footer__socaials-img" src="images/footer-icon/inst.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
